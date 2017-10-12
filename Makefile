@@ -8,14 +8,17 @@ CC := g++
 CFLAGS := -Wall -O -g
 # 第三方库
 LIB_FLAGS := 
-# 最终目标文件
+# 目标可执行文件
 TARGET = test
+# 构建规则
 all : $(TARGET)
+# 构建目标可执行文件
 $(TARGET) : $(OBJS)
 		$(CC) $^ -o $@ $(CFLAGS) $(LIB_FLAGS)
 		./$@
+# 编译每个.cpp文件为.o文件
 %.o : %.cpp
 		$(CC) $< -c $(CFLAGS) 
-
+# 清除生成的目标文件
 clean : 
 		rm -rf $(OBJS) $(TARGET)
