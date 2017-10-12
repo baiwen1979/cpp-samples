@@ -49,13 +49,9 @@ int* ops(int a) {
 }
 */
 
-void test02(int argc, char* argv[]) {
-    /*
-    for (int i = 0; i < argc; i++) {
-        //printf("argv[%d] = %s \n", i, argv[i]);
-        cout << "argv[" << i << "] = " << argv[i] << endl; 
-    }
-    */
+void test_ch02() {
+
+    cout << "******** test ch02 ******** " << endl;
     int a = 2 * 3;
     int b = a * a;
 
