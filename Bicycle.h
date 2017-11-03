@@ -1,10 +1,11 @@
 #include "Wheel.h"
 #include "BicycleFrame.h"
+#include "Vehicle.h"
 
 #ifndef BICYCLE_H
 #define BICYCLE_H
 
-class Bicycle {
+class Bicycle : public Vehicle {
 
 public:   
     Bicycle();

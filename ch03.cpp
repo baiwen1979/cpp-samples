@@ -23,6 +23,8 @@ void test_Bicycle() {
     Bicycle *pb = new Bicycle[10];
     for (int i = 0; i < 10; i++) {
         pb[i].printInfo();
+        pb[i].transport();
+        // cout << pb[i].name;
     }
     
     delete[] pb;

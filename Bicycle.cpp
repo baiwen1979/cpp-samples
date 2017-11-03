@@ -3,12 +3,13 @@
 
 using namespace std;
 
-Bicycle::Bicycle(): frontWheel(4), backWheel(2), frame(5) {
-    cout << "Default Constructor: Bicycle::Bicycle() is called." << endl;
+Bicycle::Bicycle(): Vehicle("Bicycle"), frontWheel(4), backWheel(2), frame(5) {
+    //cout << "Default Constructor: Bicycle::Bicycle() is called." << endl;
 }
 
 void Bicycle::printInfo() {
     cout << "--------- Bicycle Information --------" << endl;
+    cout << "Bicycle Name: " << getName() << endl;
     cout << "Bicycle Frame Length: " << frame.getLength() << endl;
     cout << "Radius of Front Wheel: " << frontWheel.getRadius() << endl;
     cout << "Radius of Back Wheel: " << backWheel.getRadius() << endl;
@@ -16,5 +17,5 @@ void Bicycle::printInfo() {
 }
 
 Bicycle::~Bicycle() {
-    cout << "Destructor: Bicycle::~Bicycle() is called." << endl;
+    //cout << "Destructor: Bicycle::~Bicycle() is called." << endl;
 }

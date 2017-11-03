@@ -1,11 +1,9 @@
 #ifndef WHEEL_H
 #define WHEEL_H
 
-class Bicycle;
-
 class Wheel {
     friend void printNumOfWheels(); //友元函数
-    friend Bicycle; //友元类
+    friend class Bicycle; //友元类
 public:
     Wheel();
     Wheel(int r);

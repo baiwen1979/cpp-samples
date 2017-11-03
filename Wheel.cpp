@@ -6,13 +6,13 @@ using namespace std;
 int Wheel::numOfWheels = 0;
 
 Wheel::Wheel():radius(1) {
-    IncNumOfWheels();
-    cout << "Default Constructor: Wheel::Wheel() is called." << endl;
+    IncNumOfWheels(); 
+    //cout << "Default Constructor: Wheel::Wheel() is called." << endl;
 }
 
 Wheel::Wheel(int r): radius(r) {
     IncNumOfWheels();
-    cout << "Constructor: Wheel::Wheel(int) is called." << endl;
+    //cout << "Constructor: Wheel::Wheel(int) is called." << endl;
 }
 
 Wheel::Wheel(const Wheel& w) {
@@ -20,12 +20,12 @@ Wheel::Wheel(const Wheel& w) {
         this -> radius = w.radius;
     }
     IncNumOfWheels();
-    cout << "Copy Constructor: Wheel::Wheel(const Wheel&) is called." << endl;
+    //cout << "Copy Constructor: Wheel::Wheel(const Wheel&) is called." << endl;
 }
 
 Wheel::~Wheel() {
     numOfWheels--;
-    cout << "Destructor Wheel::~Wheel() is called." << endl;
+    //cout << "Destructor Wheel::~Wheel() is called." << endl;
 }
 
 int Wheel::getRadius() {
