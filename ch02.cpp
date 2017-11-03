@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 #include "math.h"
 
 using namespace std;
@@ -93,4 +94,9 @@ void test_ch02() {
 
     ff(1, 2.2f);
     ff(2.2f, 1);
+
+    string str1 = "hello", str2 = " world";
+    string str3 = str1 + str2;
+    cout << str3 << endl;
+
 }
