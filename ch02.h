@@ -1,1 +1,0 @@
-void test_ch02();

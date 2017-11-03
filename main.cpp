@@ -1,12 +1,10 @@
 #include <iostream>
 
-#include "ch01.h"
-#include "ch02.h"
-#include "ch03.h"
+#include "test.h"
 
 int main(int argc, char* argv[]) {
     //test_ch01();
     //test_ch02();
-    test_Wheel();
+    test_ch03();
     return 0;
 }

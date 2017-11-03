@@ -5,8 +5,6 @@
 using namespace std;
 using namespace geometry;
 
-Rectangle gRect;
-
 void test_Rectangle() {
 
     /*
