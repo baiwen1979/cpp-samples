@@ -6,7 +6,6 @@ using namespace std;
 
 void test_Vehicle() {
     Bicycle b;
-
 }
 
 void test_ch04() {
