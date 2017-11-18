@@ -25,7 +25,7 @@ Wheel::Wheel(const Wheel& w) {
 
 Wheel::~Wheel() {
     numOfWheels--;
-    //cout << "Destructor Wheel::~Wheel() is called." << endl;
+    cout << "Destructor Wheel::~Wheel() is called." << endl;
 }
 
 int Wheel::getRadius() {

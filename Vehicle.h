@@ -6,9 +6,11 @@ using std::string;
 
 class Vehicle {
 public:
+    Vehicle();
     Vehicle(string name);
     void transport();
     const string& getName() const;
+    ~Vehicle();
 private: 
     string name;
 };

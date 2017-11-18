@@ -4,7 +4,7 @@
 using namespace std;
 
 Bicycle::Bicycle(): Vehicle("Bicycle"), frontWheel(4), backWheel(2), frame(5) {
-    //cout << "Default Constructor: Bicycle::Bicycle() is called." << endl;
+    cout << "Default Constructor: Bicycle::Bicycle() is called." << endl;
 }
 
 void Bicycle::printInfo() {
@@ -17,5 +17,5 @@ void Bicycle::printInfo() {
 }
 
 Bicycle::~Bicycle() {
-    //cout << "Destructor: Bicycle::~Bicycle() is called." << endl;
+    cout << "Destructor: Bicycle::~Bicycle() is called." << endl;
 }

@@ -22,5 +22,5 @@ int BicycleFrame::getLength() {
 }
 
 BicycleFrame::~BicycleFrame() {
-    //cout << "Destructor: BicycleFrame::~BicycleFrame() is called." << endl;
+    cout << "Destructor: BicycleFrame::~BicycleFrame() is called." << endl;
 }
