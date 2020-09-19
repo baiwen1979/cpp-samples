@@ -3,6 +3,10 @@
         "iostream": "cpp",
         "algorithm": "cpp",
         "typeinfo": "cpp",
-        "iosfwd": "cpp"
+        "iosfwd": "cpp",
+        "chrono": "c",
+        "limits": "c",
+        "random": "c",
+        "ratio": "c"
     }
 }
